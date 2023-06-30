@@ -43,3 +43,17 @@ iframe#tela {
             height: 472px;
     
 }
+
+section#conteudo > a > img {
+                        width: 40px;
+                        margin: 8px;
+                        border-radius: 50%;
+                        box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.549);
+                        box-sizing: border-box;
+}
+
+section#conteudo > a > img:hover {
+                            border: 2px solid white;
+                            transform: translate(3px, -3px);
+                            transition: transform 0.4s;
+}
